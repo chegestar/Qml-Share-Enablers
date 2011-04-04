@@ -1,0 +1,29 @@
+Source: libshare-ui-declarative
+Section: main
+Priority: optional
+Maintainer: Jukka Tiihonen <jukka.t.tiihonen@nokia.com>
+Build-Depends: debhelper (>= 5.0.0), libshare-ui-dev,
+ libqt4-dev (>=4.7), libthumbnailer-dev (>= 0.1.8), aegis-builder
+Standards-Version: 3.8.0
+
+Package: libshare-ui-declarative
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}
+Description: Declarative wrappers for share ui classes
+
+Package: libshare-ui-declarative-dbg
+Section: devel
+Architecture: any
+Priority: extra
+Depends: libshare-ui-declarative (= ${binary:Version})
+Description: Debug symbols for libshare-ui-declarative
+
+Package: libshare-ui-declarative-dev
+Section: devel
+Architecture: any
+Priority: extra
+Depends: libshare-ui-declarative (>= ${source:Version})
+Description: Development files for libshare-ui-declarative
+
+
