@@ -1,0 +1,5 @@
+qml-share-ui (0.0.1) unstable; urgency=low
+
+  * qml style share ui implementation
+
+ -- Jukka Tiihonen <jukka.t.tiihonen@nokia.com>  Fri, 1 Apr 2011 15:42:40 +0200

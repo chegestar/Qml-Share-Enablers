@@ -1,0 +1,11 @@
+#!/bin/sh
+
+LINK=/usr/lib/share-ui/implementations/libdefault.so
+
+# Remove symbolic link
+if [ -f $LINK ]
+then
+rm $LINK
+fi
+
+#DEBHELPER#

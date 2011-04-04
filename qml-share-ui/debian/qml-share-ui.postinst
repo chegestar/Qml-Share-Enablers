@@ -1,0 +1,12 @@
+#!/bin/sh
+
+LIB=libqml-share-ui.so
+LINK=/usr/lib/share-ui/implementations/libdefault.so
+
+# Remove symbolic link if present and make symbolic link
+[ -f $LINK ] && rm $LINK
+
+# Make symbolic link to so that this is used as default implementation of Share UI
+ln -s $LIB $LINK
+
+#DEBHELPER#
